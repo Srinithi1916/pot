@@ -1,0 +1,48 @@
+.about {
+  padding: 2rem;
+  background: #16213e;
+  color: white;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.about h2 {
+  color: #e94560;
+  margin-bottom: 1.5rem;
+}
+
+.about-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.about-text ul {
+  list-style-type: none;
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+.about-text ul li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.about-text ul li::before {
+  content: "•";
+  color: #e94560;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
